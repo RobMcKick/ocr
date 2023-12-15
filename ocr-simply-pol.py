@@ -6,7 +6,7 @@ def ocr_to_txt(image_path, output_txt):
     image = Image.open(image_path)
 
     # Wykonaj OCR
-    text = pytesseract.image_to_string(image, lang='eng')
+    text = pytesseract.image_to_string(image, lang='pol')
 
     # Zapisz wyniki do pliku txt
     with open(output_txt, 'w', encoding='utf-8') as file:
