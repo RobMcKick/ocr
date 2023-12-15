@@ -14,10 +14,10 @@ def ocr_to_txt(image_path, output_txt):
 
 if __name__ == "__main__":
     # Ścieżka do pliku zeskanowanego obrazu (JPG)
-    image_path = r"C:\python-files\405751406_186548954526459_7462916965637521543_n.jpg"
+    image_path = r"C:\python-files\Screenshot_2.png" 
 
     # Ścieżka do pliku wynikowego txt
-    output_txt = r"C:\python-files\resultocr1.txt"
+    output_txt = r"C:\python-files\result_ocr.txt"
 
     # Wywołaj funkcję OCR i zapisz wyniki do pliku txt
     ocr_to_txt(image_path, output_txt)
